@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "编译纯C代码",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "${file}",
+                "-g",
+                "-Wall",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "env": {
+                    "PATH": "D:\\msys64\\ucrt64\\bin;${env:PATH}"
+                }
+            },
+            "problemMatcher": "$gcc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "MSYS2纯C环境",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "E:\\msys64\\ucrt64\\bin\\gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:\\msys64\\ucrt64\\include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "E:\\msys64\\ucrt64\\include"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
